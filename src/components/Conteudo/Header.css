@@ -1,0 +1,15 @@
+.header-container{
+    background-color: #ce1f3a;
+    color: white;
+}
+
+.header-container:before {
+    content: '';
+    position: absolute;
+    top: 20; right: 0;
+    border-bottom: 76px solid white;
+    border-left: 1025px solid red;
+    width: 0;
+    height: auto;
+    width: auto;
+}
